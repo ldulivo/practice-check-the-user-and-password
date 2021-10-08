@@ -1,0 +1,118 @@
+.content{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.form{
+    width: 300px;
+    background: #FFBB00;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px #c5950d;
+}
+
+.form h2{
+    width: 100%;
+    text-align: center;
+    color: #375e97;
+}
+
+.form > div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.form label{
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.form input{
+    border-color: #ffdead;
+    outline: none;
+}
+
+.div_submit{
+    justify-content: center!important;
+}
+
+.div_submit input{
+    color: #FFF;
+    background: #f33720;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: #ee6856;
+    border-image: initial;
+    margin-top: 10px;
+    height: 32px;
+}
+
+.div_submit input:active{
+    background: #ca240e;
+    border-color: #ca240e;
+}
+
+.div_input{
+    width: 230px;
+    display: flex;
+}
+
+span{
+    display: none;
+}
+
+.span{
+    font-size: 12px;
+}
+
+.submit{
+    width: 40%;
+}
+
+.done{
+    display: block;
+    color: green;
+}
+
+.error{
+    display: block;
+    color: red;
+}
+
+#check_correo{
+    font-size: 28px;
+}
+
+.login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -100%;
+    transition: all ease-in-out .5s;
+}
+
+.login_box{
+    width: 256px;
+    background: #faebd7db;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.login_box h1{
+    margin: 0 auto;
+    color: #375e97;
+}
+
+.login_active{
+    top: 63px;
+}

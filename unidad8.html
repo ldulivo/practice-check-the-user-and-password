@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+  
+  <link rel="stylesheet" href="unidad8.css">
+</head>
+<body>
+  <div class="content">
+    <form class="form" action="" id="form">
+  
+      <h2>Ingrese al sistema</h2>
+      <div>
+        <label for="correo">Usuario: </label>
+        <div class="div_input">
+          <input id="correo" type="email" required>
+          <span id="ico_correo"></span>
+        </div>
+      </div>
+      <span class="span" id="text_correo"></span>
+  
+      <div>
+        <label for="pass">Clave: </label>
+        <div class="div_input">
+          <input id="pass" type="password" required>
+          <span id="ico_pass"></span>
+        </div>
+      </div>
+      <span class="span" id="text_pass"></span>
+  
+      <div class="div_submit">
+        <input class="submit" type="submit" value="Ingresar">
+      </div>
+  
+    </form>
+
+    <div id="login" class="login">
+      <div class="login_box">
+        <h1>Usted ingresó correctamente</h1>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="control.js"></script>
+</body>
+</html>
